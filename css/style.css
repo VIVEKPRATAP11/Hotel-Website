@@ -9,6 +9,12 @@ html,body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
 }
+.box:hover{
+    background-color: #f7c08a;
+}
+.bgg:hover{
+    background-color: #f7c08a;
+}
 
 a {
     color: #333;
@@ -48,10 +54,10 @@ p {
     cursor: pointer;
 }
 
-.btn:hover {
+/* .btn:hover {
     background: #f7c08a;
     color: #333;
-}
+} */
 
 .btn-light {
     background: #f4f4f4 ;
@@ -167,6 +173,12 @@ p {
 }
 
 .box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box1 {
     float: left;
     width: 33.3%;
     padding: 50px;
